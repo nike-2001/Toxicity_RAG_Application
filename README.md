@@ -85,7 +85,7 @@ An intelligent AI-powered toxicity detection system built with LangChain, FAISS,
 ### 1. Clone the Repository
 ```bash
 git clone <repository-url>
-cd RAG_Capstone
+cd Toxicity_RAG_Application
 ```
 
 ### 2. Install Dependencies
@@ -94,7 +94,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Set Up API Keys
-Update the following in `app.py` or set as environment variables:
+Update the following in `rag_app.py` or set as environment variables:
 
 ```python
 # Groq API Key (for LLM)
@@ -166,20 +166,22 @@ Run cells sequentially to:
 ## 📁 Project Structure
 
 ```
-RAG_Capstone/
+Toxicity_RAG_Application/
 ├── rag_app.py                 # Streamlit web application
 ├── toxicity_rag.ipynb         # Jupyter notebook
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # This file
 │
 ├── faiss_vector_store/        # Pre-built FAISS index
-│   ├── index.faiss           # Vector index
-│   └── index.pkl             # Document store
-│
-├── toxicity_cleaned.csv       # Training dataset (159K records)
-├── test.csv                   # Test dataset
-├── test_labels.csv           # Test labels
-└── toxicity_data.csv         # Original raw data
+│   ├── index.faiss            # Vector index
+│   └── index.pkl              # Document store
+
+├── data/                      # Datasets
+│   ├── toxicity_cleaned.csv   # Training dataset (159K records)
+│   └── test.csv               # Test dataset
+│   └── test_labels.csv        # Test labels
+│   └── toxicity_data.csv      # Original raw data
+
 ```
 
 ## 🛠️ Technical Details
