@@ -1,0 +1,10 @@
+data/ 
+faiss_vector_store/ 
+*.csv 
+*.pkl 
+*.faiss 
+venv/ 
+.vscode/ 
+.ipynb_checkpoints/ 
+.streamlit/ 
+.env 
