@@ -2,6 +2,27 @@
 
 An intelligent AI-powered toxicity detection system built with LangChain, FAISS, and Groq (ollama) LLM. This system uses Retrieval-Augmented Generation (RAG) and agentic workflows to analyze text for toxic content, provide educational insights, and suggest better communication alternatives.
 
+## 📑 Table of Contents
+
+- [✨ Features](#-features)
+- [🏗️ Architecture](#️-architecture)
+- [📦 Installation](#-installation)
+- [🚀 Usage](#-usage)
+- [📁 Project Structure](#-project-structure)
+- [🛠️ Technical Details](#️-technical-details)
+- [🧪 Key Components](#-key-components)
+- [📈 System Evaluation](#-system-evaluation)
+- [📊 LangSmith Tracing](#-langsmith-tracing)
+- [🎨 Features in Detail](#-features-in-detail)
+- [🔧 Configuration](#-configuration)
+- [🧩 Extending the System](#-extending-the-system)
+- [🎯 Design Choices and Challenges](#-design-choices-and-challenges)
+- [🚀 Future Improvements](#-future-improvements)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [📞 Support](#-support)
+
 ## ✨ Features
 
 ### 🎯 Smart Intent Detection
