@@ -14,7 +14,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
 from langchain.agents import Tool
 from langchain.agents import AgentExecutor, create_react_agent
-from langchain.chains import ConversationalRetrievalChain
+from dotenv import load_dotenv
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.prompts import PromptTemplate
 
@@ -44,19 +44,17 @@ if "analysis_history" not in st.session_state:
     st.session_state.analysis_history = []
 
 # API Keys
-GROQ_API_KEY = "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"
+# Load environment variables
+load_dotenv()
 
-# LangSmith Configuration
-LANGSMITH_API_KEY = "ls__a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0"
-LANGSMITH_PROJECT = "Toxicity-Agentic-RAG-Application"
-LANGSMITH_TRACING_V2 = True
-LANGSMITH_ENDPOINT = "https://api.smith.langchain.com"
+# API Keys
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
-# Set LangSmith environment variables
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_ENDPOINT"] = LANGSMITH_ENDPOINT
-os.environ["LANGCHAIN_API_KEY"] = LANGSMITH_API_KEY
-os.environ["LANGCHAIN_PROJECT"] = LANGSMITH_PROJECT
+# LangSmith Configuration for tracking
+LANGSMITH_API_KEY = os.environ.get("LANGSMITH_API_KEY")
+LANGSMITH_PROJECT = os.environ.get("LANGSMITH_PROJECT")
+LANGSMITH_ENDPOINT = os.environ.get("LANGSMITH_ENDPOINT")
+LANGCHAIN_TRACING_V2 = os.environ.get("LANGCHAIN_TRACING_V2", "true")
 
 @st.cache_resource
 def load_vectorstore():
