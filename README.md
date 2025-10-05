@@ -2,11 +2,11 @@
 
 ## 📑 Table of Contents
 
-- [Background](#background)
-- [Business Problem](#business-problem)
-- [Key Business Objectives](#key-business-objectives)
-- [Machine Learning & NLP Problem](#machine-learning--nlp-problem)
-- [Project Objective](#project-objective)
+- [📖 Background](#background)
+- [⚠️ Business Problem](#business-problem)
+- [🎯 Key Business Objectives](#key-business-objectives)
+- [🤖 Machine Learning & NLP Problem](#machine-learning--nlp-problem)
+- [🚀 Project Objective](#project-objective)
 - [✨ Features](#-features)
 - [🏗️ Architecture](#️-architecture)
 - [📦 Installation](#-installation)
