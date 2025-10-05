@@ -1,5 +1,33 @@
 # 🛡️ Capstone Project: Intelligent Content Moderation & Toxicity Detection Assistant
 
+## 📑 Table of Contents
+
+- [Background](#background)
+- [Business Problem](#business-problem)
+- [Key Business Objectives](#key-business-objectives)
+- [Machine Learning & NLP Problem](#machine-learning--nlp-problem)
+- [Project Objective](#project-objective)
+- [✨ Features](#-features)
+- [🏗️ Architecture](#️-architecture)
+- [📦 Installation](#-installation)
+- [🚀 Usage](#-usage)
+- [📁 Project Structure](#-project-structure)
+- [🛠️ Technical Details](#️-technical-details)
+- [🧪 Key Components](#-key-components)
+- [📈 System Evaluation](#-system-evaluation)
+- [📊 LangSmith Tracing](#-langsmith-tracing)
+- [🎨 Features in Detail](#-features-in-detail)
+- [🔧 Configuration](#-configuration)
+- [🧩 Extending the System](#-extending-the-system)
+- [🎯 Design Choices and Challenges](#-design-choices-and-challenges)
+- [🚀 Future Improvements](#-future-improvements)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [📞 Support](#-support)
+
+---
+
 ## Background
 The digital landscape has experienced explosive growth, with billions of users engaging in online conversations across social media, forums, gaming platforms, and content-sharing websites. However, this growth has brought significant challenges in maintaining healthy online communities. Toxic behavior—including insults, hate speech, threats, and harassment—has become a pervasive problem affecting user safety, mental health, and platform reputation.
 
@@ -60,31 +88,6 @@ Build an **AI-powered Toxicity Detection & Content Moderation Assistant** using 
 5. **Reduce moderation costs** while improving consistency and user experience
 
 ---
-
-# 🛡️ Toxicity Detection & Content Moderation System
-
-An intelligent AI-powered toxicity detection system built with LangChain, FAISS, and Groq (ollama) LLM. This system uses Retrieval-Augmented Generation (RAG) and agentic workflows to analyze text for toxic content, provide educational insights, and suggest better communication alternatives.
-
-## 📑 Table of Contents
-
-- [✨ Features](#-features)
-- [🏗️ Architecture](#️-architecture)
-- [📦 Installation](#-installation)
-- [🚀 Usage](#-usage)
-- [📁 Project Structure](#-project-structure)
-- [🛠️ Technical Details](#️-technical-details)
-- [🧪 Key Components](#-key-components)
-- [📈 System Evaluation](#-system-evaluation)
-- [📊 LangSmith Tracing](#-langsmith-tracing)
-- [🎨 Features in Detail](#-features-in-detail)
-- [🔧 Configuration](#-configuration)
-- [🧩 Extending the System](#-extending-the-system)
-- [🎯 Design Choices and Challenges](#-design-choices-and-challenges)
-- [🚀 Future Improvements](#-future-improvements)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [🙏 Acknowledgments](#-acknowledgments)
-- [📞 Support](#-support)
 
 ## ✨ Features
 
